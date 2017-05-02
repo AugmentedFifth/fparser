@@ -21,13 +21,9 @@ cabal.sandbox.config
 cabal.project.local
 .HTF/
 
-# Hiding production files #
-*.txt
-*.htm
-*.html
+# Hiding archive files #
 *.zip
 *.tar
 *.tar.gz
 *.rar
 *.7z
-

@@ -1,0 +1,43 @@
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    padding: 20px 20vw;
+    display: table-cell;
+    vertical-align: middle;
+    background-color: #ffffff;
+    color: #292929;
+    font-family: 'PT Serif', serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+ol,
+ul {
+    margin: 16px 0;
+}
+
+ol + ol,
+ol + ul,
+ul + ol,
+ul + ul {
+    margin-top: -16px;
+}
+
+ol ol,
+ol ul,
+ul ol,
+ul ul {
+    margin: 0;
+}
